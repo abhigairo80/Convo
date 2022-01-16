@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    tools:context=".activities.ChatActivity">
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/llll"
+        app:stackFromEnd="true" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="10"
+        android:paddingVertical="5dp"
+        android:paddingHorizontal="2dp"
+        android:id="@+id/llll"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:orientation="horizontal">
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:id="@+id/msgbox"
+            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+            android:background="@drawable/edit_bg"
+            android:layout_weight="10.5"
+            app:startIconDrawable="@drawable/google_24px">
+            <!--app:helperText="required*"
+            app:helperTextTextColor="@color/dred"-->
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/messageBox"
+                android:maxLines="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter your Message" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="send"
+            android:id="@+id/send"
+            android:layout_weight="1"
+            />
+
+
+
+
+    </LinearLayout>
+    <androidx.fragment.app.FragmentContainerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragContainer">
+        <fragment
+            android:id="@+id/fragment_activity_main"
+            android:name="androidx.navigation.fragment.NavHostFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:defaultNavHost="true"
+            android:visibility="gone"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.fragment.app.FragmentContainerView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

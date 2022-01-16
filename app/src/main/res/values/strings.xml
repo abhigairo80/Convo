@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Convo</string>
+    <string name="register_yourself">Register yourself</string>
+    <string name="haven_t_registered_yet">Haven\'t Registered Yet?</string>
+    <string name="login_via_phone_number">Login/Signup via phone number</string>
+    <string name="log_in">log in</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="image">image</string>
+    <string name="type_your_message_here">Type your Message Here</string>
+    <string name="name">name</string>
+    <string name="enter_number">Enter Number</string>
+    <string name="login">LOGIN</string>
+    <string name="enter_your_number_to_continue">Enter your Number to Continue</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="verify">Verify</string>
+    <string name="set_password">Set Password</string>
+
+    <string name="wallpaper">Wallpaper</string>
+    <string name="country_code">+91</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="register">Register</string>
+    <string name="my_profile">My Profile</string>
+
+
+    <string name="sending_the_message">Sending The Message</string>
+    <string name="recievermessage">RecieverMessage</string>
+    <string name="sender_message">Sender Message</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="your_name">Your name</string>
+    <string name="logout">Logout</string>
+    <string name="wallpapers">wallpapers</string>
+    <string name="settings">settings</string>
+    <string name="phone_or_email">Phone or Email</string>
+    <string name="my_theme">My Theme</string>
+    <string name="please_wait">Please Wait</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="ritik_malhotra">Ritik Malhotra</string>
+    <string name="prateek_arora">Prateek Arora</string>
+    <string name="nupur_aggarwal">Nupur Aggarwal</string>
+    <string name="abhishek_gairola">Abhishek Gairola</string>
+    <string name="enter_your_message"> Enter your Message</string>
+    <string name="message">Enter Your Message</string>
+    <string name="help_us_grow">Help us grow!</string>
+    <string name="contact_us">Contact Us</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>
